@@ -21,6 +21,7 @@ public class MyFirstStepDef {
 		driver.get("https://www.facebook.com/:");
 		throw new PendingException();*/
 		System.out.println("In Given");
+		System.out.println("Updated");
 	}
 	
 	@When("^User enters first name$")
